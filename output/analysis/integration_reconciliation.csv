@@ -1,0 +1,17 @@
+section,field,metric,value
+source_totals,berkeley_lab_ercot_rows,value,3757
+source_totals,berkeley_lab_ercot_mw_1,value,804596
+source_totals,ercot_large_load_data_center_mw,value,420812
+aggregated_totals,n_projects_in_scope,value,3608
+aggregated_totals,total_queue_mw,value,791938.89
+aggregated_totals,active_queue_mw,value,407411.66
+aggregated_totals,withdrawn_queue_mw,value,253428.32
+aggregated_totals,operational_queue_mw,value,94274.97
+aggregated_totals,suspended_queue_mw,value,36823.94
+aggregated_totals,corporate_demand_mw,value,420812
+unmatched_records,missing_q_date,n_rows,149
+unmatched_records,future_q_date,n_rows,0
+unmapped_capacity,missing_q_date,mw_1_sum,12657.11
+unmapped_capacity,future_q_date,mw_1_sum,0
+discrepancies,berkeley_lab_row_count_reconciliation,source_rows_minus_in_scope_minus_unmatched,0
+discrepancies,berkeley_lab_mw_1_reconciliation,source_mw_minus_aggregated_minus_unmapped,-1.45519152283669e-11

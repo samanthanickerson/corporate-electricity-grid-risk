@@ -1,0 +1,37 @@
+section,field,metric,value
+row_counts,NA,rows_before_cleaning,8
+row_counts,NA,rows_after_cleaning,8
+row_counts,NA,rows_excluded,0
+record_type_counts,aggregate,count,6
+record_type_counts,anonymized_bucket,count,2
+missing_values,record_id,n_missing,0
+missing_values,record_type,n_missing,0
+missing_values,status,n_missing,0
+missing_values,sector,n_missing,0
+missing_values,sector_std,n_missing,0
+missing_values,requested_mw,n_missing,3
+missing_values,approved_mw,n_missing,5
+missing_values,observed_mw,n_missing,5
+missing_values,project_count,n_missing,6
+missing_values,county,n_missing,8
+missing_values,load_zone,n_missing,8
+missing_values,tsp,n_missing,8
+missing_values,poi,n_missing,8
+missing_values,last_seen_date,n_missing,0
+missing_values,last_changed_date,n_missing,0
+missing_values,confidence,n_missing,0
+missing_values,extraction_status,n_missing,0
+missing_values,source_document_ids,n_missing,0
+missing_values,public_name,n_missing,0
+missing_values,public_alias,n_missing,0
+missing_values,public_basis,n_missing,0
+missing_values,confidentiality_note,n_missing,0
+missing_values,source_citation,n_missing,0
+invalid_dates,last_seen_date,n_invalid,0
+invalid_dates,last_changed_date,n_invalid,0
+invalid_mw,requested_mw,n_invalid,0
+invalid_mw,approved_mw,n_invalid,0
+invalid_mw,observed_mw,n_invalid,0
+snapshot_coverage,last_seen=2026-01-21; last_changed=2026-02-13,n_records,5
+snapshot_coverage,last_seen=2026-04-01; last_changed=2026-04-01,n_records,3
+excluded_records,NA,count,0

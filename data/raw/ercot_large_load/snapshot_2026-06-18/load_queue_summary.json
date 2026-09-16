@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-08-07T00:00:00Z",
+  "summary": {
+    "as_of_date": "2026-06-18",
+    "source_refresh_date": "2026-07-15",
+    "display_date": "Queue metrics Jun 18, 2026; sources refreshed Jul 15, 2026",
+    "source_document_ids": [
+      "ercot-llwg-index"
+    ],
+    "buckets": [
+      {
+        "status": "submitted",
+        "mw": 466497,
+        "project_count": null,
+        "notes": "ERCOT June 19 2026 LLWG 'Large Load Interconnection Status Update' slide 3 'Large Load Queue - Past 12 Months': 396,789 MW standalone + 69,708 MW co-located = 466,497 MW total queue for snapshot June 18, 2026."
+      },
+      {
+        "status": "approved_to_energize",
+        "mw": 8927,
+        "project_count": null,
+        "notes": "ERCOT June 19 2026 LLWG Report slide 8 verbatim: 'Of the 8927 MW that have received Approval to Energize' (slide 6/12 chart shows 8,926 MW for the same snapshot; both preserved per review)."
+      },
+      {
+        "status": "observed_energized",
+        "mw": 3900,
+        "project_count": null,
+        "notes": "ERCOT June 19 2026 LLWG Report slide 8 verbatim non-simultaneous monthly peak consumption of 3,900 MW in June 2026; simultaneous peak 3,675 MW (slide 9)."
+      },
+      {
+        "status": "approved_to_energize_not_operational",
+        "mw": 5027,
+        "project_count": null,
+        "notes": "Derived: 8,927 MW approved to energize minus 3,900 MW observed operating (slide 8), June 2026 snapshot."
+      },
+      {
+        "status": "planning_studies_approved",
+        "mw": null,
+        "project_count": null,
+        "notes": "Not published: stage scope varies by LLWG cycle and is captured internally, not in the public funnel summary."
+      },
+      {
+        "status": "under_ercot_review",
+        "mw": null,
+        "project_count": null,
+        "notes": "Not published: review-stage classification is captured internally, not in the public funnel summary."
+      },
+      {
+        "status": "no_studies_submitted",
+        "mw": null,
+        "project_count": null,
+        "notes": "Not published: no-studies parked load is captured internally, not in the public funnel summary."
+      }
+    ],
+    "by_sector": [
+      {
+        "sector": "data_center",
+        "mw": 420812,
+        "project_count": null,
+        "notes": "ERCOT June 19 2026 LLWG Report slide 14 'Large Load Project Distribution by Type': 90.2% Data Center (420,812 MW directly labeled)."
+      },
+      {
+        "sector": "crypto",
+        "mw": 14928,
+        "project_count": null,
+        "notes": "Crypto 3.0% + Data Center/Crypto 0.2% = 3.2% of the 466,497 MW queue (slide 14)."
+      },
+      {
+        "sector": "industrial",
+        "mw": 4665,
+        "project_count": null,
+        "notes": "Industrial 1.0% of the 466,497 MW queue (slide 14). Classification basis changes from editorial approximation to ERCOT's own classification at this snapshot."
+      },
+      {
+        "sector": "other",
+        "mw": 26092,
+        "project_count": null,
+        "notes": "Not Specified 4.8% + Hydrogen 0.8% = 5.6%; residual computed to balance total (466,497 - 420,812 - 14,928 - 4,665)."
+      }
+    ],
+    "by_tsp": [],
+    "by_load_zone": [],
+    "notes": [
+      "Public source materials expose aggregate status and process information, but do not provide a complete named customer queue.",
+      "Values sourced from ERCOT's June 19 2026 LLWG Report (Large Load Interconnection Status Update), data as of June 18, 2026, reviewed from the official PPTX on July 15, 2026.",
+      "This snapshot captures queue state adjacent to the PUCT's June 18, 2026 approval of the Batch Zero interconnection framework (PGRR145/NPRR1325, effective July 11, 2026), which ended the prior Planning Guide Section 9 process on July 10, 2026.",
+      "Month-over-month, the total queue fell 4,918 MW from May (471,415 MW) to June (466,497 MW) due to cancelled or duplicate ticket removal and stage consolidation (report slide 2), not declining demand.",
+      "Operator review: the June 2026 LLWG payload stored in data/processed/load/large_load_refresh_candidate.json was approved for the public summary on 2026-08-07 (Matt Prusak, via agent). This tracker was reconciled to the same snapshot the chartbook funnel already published.",
+      "Named or customer-specific load-study rows should be treated as private candidates until a public filing source is captured and reviewed."
+    ]
+  }
+}
