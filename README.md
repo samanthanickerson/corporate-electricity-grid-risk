@@ -77,6 +77,12 @@ SLOPE, and DSIRE policy data were identified as useful context but are not
 part of the current pipeline. These remain future work rather than
 contributors to any number reported here.
 
+### Licensing
+
+The code and documentation here are MIT-licensed (`LICENSE`). The source
+datasets are **not** covered by it and carry their own terms — see `NOTICE`
+for the details, and `data/README.md` for how to obtain each one.
+
 ## Methodology
 
 Nine numbered R scripts, each reading only files persisted by earlier

@@ -1,0 +1,18 @@
+Note on scope
+=============
+
+The MIT license in LICENSE covers the code and documentation in this
+repository. It does not cover the third-party source datasets, which are not
+redistributed here and carry their own terms:
+
+  - ERCOT Large Load queue data via ercotqueue.com — CC BY 4.0
+    (https://creativecommons.org/licenses/by/4.0/)
+  - Berkeley Lab "Queued Up" — see https://emp.lbl.gov/queues
+
+One exception: a single ERCOT Large Load snapshot is included under
+data/raw/ercot_large_load/snapshot_2026-06-18/ because its CC BY 4.0 license
+permits redistribution with attribution, and the published figures cannot be
+reproduced or checked without it. Attribution accompanies it in that
+directory's README.md and in R/01_import_clean.R.
+
+See data/README.md for acquisition instructions for both sources.

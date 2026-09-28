@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Note on scope: this license covers the code and documentation in this
-repository. It does not cover the third-party source datasets, which are not
-redistributed here and carry their own terms:
-
-  - ERCOT Large Load queue data via ercotqueue.com — CC BY 4.0
-  - Berkeley Lab "Queued Up" — see https://emp.lbl.gov/queues
-
-See data/README.md for acquisition instructions.
